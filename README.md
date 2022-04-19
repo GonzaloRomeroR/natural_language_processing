@@ -1,16 +1,21 @@
-# Procesamiento del Lenguaje natural
-Este repositorio contiene el material de clases (presentaciones, ejercicios y notebooks) para NLP (CEIA - FIUBA)
+# Natural language processing 
+This repository contains material and exercises from the Specialization of Artificial Intelligence from the University of Buenos Aires.
 
-## Contenido
+## Projects
 
-### [Clase 1](clase_1/README.md) 
-* Introducción a NLP (natural language programing)
-* Vectorización de documentos
+### Document vectorization
+* Obtain the vocabulary from a example corpus
+* Use one hot encoding and get the frequency vectors
+* Obtain the the TFIDF matrix and compare the documents 
+* https://github.com/GonzaloRomeroR/natural_language_processing/blob/main/clase_1/ejercicios/1a_word2vec.ipynb
 
-### [Clase 2](clase_2/README.md)
-* Preprocesamiento de texto
-* Librerías de NLP
-* Rule-based bots
+### Based on rules bot 
+* Use the [Intent Classification](https://www.kaggle.com/datasets?search=Intent+Classification) dataset obtain from Kaggle to create a based on rules bot 
+* Work with the spacy library to tokenize and lemmatize
+* Train a neuronal network that uses an one hot encoding input to classify and answer the questions based on that classification.
+* https://github.com/GonzaloRomeroR/natural_language_processing/blob/main/clase_2/NLP_clase_2_bot.ipynb
+
+<img src="./docs/images/bot_image.PNG">
 
 ### [Clase 3](clase_3/README.md)
 * Word embeddings, CBOW y SkipGRAM
